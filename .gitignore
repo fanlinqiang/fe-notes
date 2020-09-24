@@ -1,0 +1,17 @@
+.DS_Store
+bower_components
+node_modules/
+.sass-cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.css.map
+*_bak.js

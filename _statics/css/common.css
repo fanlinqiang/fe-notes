@@ -1,0 +1,50 @@
+summary {
+  outline: none; }
+
+.sidebar-nav h4 {
+  margin: 0 0 0 15px;
+  font-size: 18px; }
+.sidebar-nav h5 {
+  margin: 0 0 0 15px;
+  font-size: 14px; }
+
+.markdown-section {
+  max-width: 80%; }
+
+.vuep {
+  flex-direction: column;
+  height: auto; }
+
+.vuep-editor, .vuep-preview {
+  width: auto; }
+
+.vuep-preview {
+  margin-top: 10px; }
+
+.sidebar-nav {
+  padding-left: 20px; }
+
+.app-name-link img {
+  width: 96px; }
+
+.markdown-section table, table.dataintable {
+  margin-top: 10px;
+  display: table;
+  text-align: center; }
+
+code::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
+code::-webkit-scrollbar-track-piece {
+  background-color: #ffffff; }
+code::-webkit-scrollbar-track {
+  background-color: #fff;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); }
+code::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px; }
+code::-webkit-scrollbar-button {
+  background-color: #fff;
+  display: none; }
+
+/*# sourceMappingURL=common.css.map */
