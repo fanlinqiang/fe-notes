@@ -18,6 +18,7 @@
 | [firefox/releases](https://ftp.mozilla.org/pub/firefox/releases/)| 火狐浏览器历史版本下载|
 |[licecap](https://www.cockos.com/licecap/)| 录屏工具|
 |[screentogif](https://www.screentogif.com/)| 录屏工具|
+|[KeyCastr](http://mac.softpedia.com/get/Utilities/KeyCastr.shtml)| 将mac按键显示在屏幕上，分享演示、录制视频或动图时超赞.|
 |[chrome-devtools](https://www.html.cn/doc/chrome-devtools/)|Chrome 开发者工具中文文档|
 |[GitMind](https://gitmind.cn/app/template?lang=zh)|Web端的流程化应用|
 |[Responsively响应式](https://github.com/manojVivek/responsively-app)|能够同时浏览多个不同尺寸屏幕的当前效果。对于响应式开发有很好的调式功能。|

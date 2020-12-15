@@ -13,7 +13,7 @@
 |`element>element`|	`div>p`|	后代选择器，选择所有父级是 `<div>` 元素的 `<p> `元素	|2|
 |`element+element`|	`div+p`	|选择所有紧接着`<div>`元素之后的`<p>`元素	|2|
 |`[attribute]`|	`[target]`	|选择所有带有target属性元素	|2|
-|`[attribute=value]`|	`[target=-blank]`|	选择所有使用target="-blank"的元素	|2|
+|`[attribute=value]`|	`[target=-blank]`|	选择所有使用target="-blank"的元素,此外还可以使用参数i忽略大小写`a[title="home" i]`	|2|
 |`[attribute~=value]`|	`[title~=flower]`|	选择标题属性包含单词"flower"的所有元素	|2|
 |`[attribute\|=language]`|	`[lang\|=en]`|	选择 `lang` 属性以 `en` 为开头的所有元素	|2|
 |`:link`|	`a:link`	|选择所有未访问链接	|1|

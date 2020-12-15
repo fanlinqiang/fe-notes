@@ -13,6 +13,7 @@
 + [Promise](views/javascript/Promise/index)
 + [Json](views/javascript/JSON/index)
 + [BOM](views/javascript/BOM/index)
++ [Form表单](views/javascript/Form/index)
 + [工具函数](views/javascript/utility-function/index)
 + [字符串](views/javascript/string/index)
 + [对象](views/javascript/Object/index)
