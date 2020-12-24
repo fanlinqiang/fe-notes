@@ -1,5 +1,7 @@
 [Array](./Array.md ':include')
 
+[String](./String.md ':include')
+
 [Object](./Object.md ':include')
 
 [Number](./Number.md ':include')

@@ -1,4 +1,19 @@
 ## String
+
+## 计算文本宽度
+
+```js
+const getTextWith = (() => {
+    var canvas = document.createElement('canvas')
+    var context = canvas.getContext('2d')
+    context.font = '14px Rubik-Medium, sans-serif' // 设置字体样式，当然，也可以在这里给一个默认值
+    return function (text) {
+        var dimension = context.measureText(text)
+        return dimension.width
+    }
+})()
+```
+
 ### contains
 ```js
 function contains (target, str, separator) {
@@ -371,5 +386,3 @@ function calcStrLen(str) {
     return len;
 }
 ```
-
-
