@@ -10,3 +10,5 @@ ECMA-262 描述了一组用于操作数据值的操作符，包括算术操作�
 [加性操作符](./additive-operator.md ':include')
 
 [关系操作符](./relational-operators.md ':include')
+
+[其他操作符](./other.md ':include')

@@ -32,6 +32,19 @@ alert(typeof age); // "undefined"
 void 运算符 对给定的表达式进行求值，然后返回 undefined。
 void 运算符通常只用于获取 undefined的原始值，一般使用void(0)（等同于void 0）。在上述情况中，也可以使用全局变量undefined 来代替（假定其仍是默认值）。
 
+可以用来给在使用立即调用的函数表达式（IIFE）时，可以利用 void 运算符让 JS 引擎把一个 function 关键字识别成函数表达式而不是函数声明。
+```
+function iife() { console.log('foo') }()       // 报错，因为JS引擎把IIFE识别为了函数声明
+void function iife() { console.log('foo') }()  // 正常调用
+~function iife() { console.log('foo') }()      // 也可以使用一个位操作符
+(function iife() { console.log('foo') })()     // 或者干脆用括号括起来表示为整体的表达式
+```
+还可以用在箭头函数中避免传值泄漏，箭头函数，允许在函数体不使用括号来直接返回值。这个特性给用户带来了很多便利，但有时候也带来了不必要的麻烦，如果右侧调用了一个原本没有返回值的函数，其返回值改变后，会导致非预期的副作用。
+```
+const func = () => void customMethod()   // 特别是给一个事件或者回调函数传一个函数时
+```
+安全起见，当不希望函数返回值是除了空值以外其他值，应该使用 void 来确保返回 undefined，这样，当 customMethod 返回值发生改变时，也不会影响箭头函数的行为。
+
 ### [delete](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/delete)
  delete 操作符用于删除对象的某个属性；如果没有指向这个属性的引用，那它最终会被释放。
  语法：
@@ -58,13 +71,13 @@ var f = 1.1;
 var o = {
     valueOf: function() {
         return -1;
-  } 
+  }
 };
 s1 = +s1; // 值变成数值 1
 s2 = +s2; // 值变成数值 1.1
 s3 = +s3; // 值变成 NaN
 b= +b; // 值变成数值 0
-f= +f; // 值未变，仍然是 1.1 
+f= +f; // 值未变，仍然是 1.1
 o= +o; // 值变成数值-1
 ```
 
@@ -88,7 +101,7 @@ o= +o; // 值变成数值-1
 ```js
 let a = 1;
 a ++; // 2, => a = a + 1
- 
+
 let b = 1;
 let c = -- b + 2;  // b = 0, c = 2
 
@@ -104,7 +117,7 @@ var f = 1.1;
 var o = {
     valueOf: function() {
         return -1;
-    } 
+    }
 };
 s1++; // 3
 s2++; // NaN
@@ -134,7 +147,3 @@ let t1 = {t: 1}
 let t2 = {a: 2}
 let t3 = { ...t1, ... t2}; // {t: 1, a: 2}
 ```
-
-
-
-

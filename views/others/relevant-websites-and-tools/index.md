@@ -33,6 +33,7 @@
 |[uTools](http://www.u.tools/download.html)|uTools,工具集|
 |[腾讯柠檬清理](https://lemon.qq.com/)|匠心打磨清理体验，一键释放磁盘空间|
 |[Go2Shell](https://links.jianshu.com/go?to=http%3A%2F%2Fzipzapmac.com%2FDMGs%2FGo2Shell.dmg)|安装见https://www.jianshu.com/p/60a2579af5fa|
+|[revealjs](https://revealjs.com/)|web-ppt|
 
 ## 图片
 
