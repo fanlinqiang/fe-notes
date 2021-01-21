@@ -3,6 +3,33 @@
 <svg width="100" height="50">
      <path d="M-1,-1H6V2H2V35H-1M0,35L6, 35V32H-2Z" stroke="red"/>
 </svg>
+### 滚动边
+```html
+<!--
+svg
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+-->
+<svg style="background: rgb(51, 51, 51);">
+   <defs>
+      <path id="flash-path" d="M5 5 L1093 5  L1093 165 L5 165 Z"></path>
+      <radialGradient id="radial-gradient" cx="50%" cy="50%" fx="100%" fy="50%" r="50%">
+         <stop offset="0%" stop-color="white" stop-opacity="1"></stop>
+         <stop offset="100%" stop-color="white" stop-opacity="0"></stop>
+      </radialGradient>
+      <mask id="flash-mask">
+         <circle r="80" cx="0" cy="0" fill="url(#radial-gradient)">
+            <animateMotion path="M5 5 L1093 5  L1093 165 L5 165 Z" dur="3s" repeatCount="indefinite"></animateMotion>
+         </circle>
+      </mask>
+   </defs>
+   <use href="#flash-path" stroke-width="1" stroke="#84A748" fill="none"></use>
+   <use href="#flash-path" stroke-width="3" stroke="#B2D17E" fill="none" mask="url(#flash-mask)"></use>
+</svg>
+```
 
 ### 直线
 ```html
