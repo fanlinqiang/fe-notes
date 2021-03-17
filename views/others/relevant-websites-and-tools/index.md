@@ -35,6 +35,11 @@
 |[Go2Shell](https://links.jianshu.com/go?to=http%3A%2F%2Fzipzapmac.com%2FDMGs%2FGo2Shell.dmg)|安装见https://www.jianshu.com/p/60a2579af5fa|
 |[revealjs](https://revealjs.com/)|web-ppt|
 
+## 文档
+* [石墨](https://shimo.im/desktop)
+* [ppt-reveal.js](https://github.com/hakimel/reveal.js)
+* [ppt-eagle.js](https://github.com/Zulko/eagle.js)
+
 ## 图片
 
 * [Collect UI](http://collectui.com/designs), 画廊是一个免费的在线资源，用于每日UI设计灵感。
@@ -63,7 +68,9 @@
 * [three-dots](https://nzbin.github.io/three-dots/), 仅有三个点组成的动画库。
 * [Pure-CSS3-Animated-Border](https://code-fx.github.io/Pure-CSS3-Animated-Border/), 针对border的动画效果。
 * [SpinKit](https://tobiasahlin.com/spinkit/), 汇集了实现各种加载效果的 CSS 代码片段
-
+* [loaders](https://connoratherton.com/loaders), 纯css loading
+* [loading](https://loading.io/), 配置loading
+* [typed.js](https://github.com/mattboldt/typed.js), 打字效果
 ## Chrome插件
 
 |插件|说明|

@@ -13,3 +13,20 @@
 ```
 ^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$
 ```
+
+
+#### 同时匹配两个字符串
+
+```
+/.*ili.*number.*|.*number.*ili.*/.test('ilinumber')
+
+/(?=.*ili)(?=.*number)^.*$/.test('numberili')
+/(?=.*ili)(?=.*number)/.test('numberili')
+```
+
+#### 不匹配一段字符串
+
+```
+# https://blog.csdn.net/xiiii/article/details/89450341
+^((?!simple).)*$
+```
