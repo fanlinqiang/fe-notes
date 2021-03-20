@@ -71,6 +71,7 @@
 * [loaders](https://connoratherton.com/loaders), 纯css loading
 * [loading](https://loading.io/), 配置loading
 * [typed.js](https://github.com/mattboldt/typed.js), 打字效果
+* [lottie]() 移动端动画
 ## Chrome插件
 
 |插件|说明|
