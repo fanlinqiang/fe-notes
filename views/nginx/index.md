@@ -1,6 +1,7 @@
 # NGINX
 
 > [nginx中文手册](https://www.nginx.cn/nginx-how-to)
+> http://nginx.org/en/docs/
 
 ## 安装
 
@@ -206,6 +207,8 @@ server {
         # For better cache policy, browser will send an HEAD request before using local cache
         expires         0;
         add_header      Cache-Control private;
+        add_header      Set-Cookie 'ucenter_session=123; HttpOnly; Path=/';
+        add_header      Set-Cookie 'session=777; HttpOnly; Path=/';
         if ($request_filename ~* .*\.(?:htm|html)$) {
             add_header Last-Modified $date_gmt;
             add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
@@ -236,6 +239,15 @@ server {
     location ~ ^/api/(.*)$ {
         proxy_pass https://www.baidu.com/api/$1;
     }
+    location ~* /(api|ucenter|gaia|sso|frontsso)/(.*)$ {
+        if ($request_uri ~* /ydy/api/) {
+            rewrite /ydy/api/(.*) /api/$1 last;
+        }
+        proxy_pass https://www.baidu.com;
+        # index index.html index.htm;
+        # proxy_set_header X-real-ip $remote_addr;
+        # proxy_set_header Host $http_host;
+      }
 }
 ```
 
