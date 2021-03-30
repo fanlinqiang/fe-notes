@@ -33,12 +33,12 @@
 |[uTools](http://www.u.tools/download.html)|uTools,工具集|
 |[腾讯柠檬清理](https://lemon.qq.com/)|匠心打磨清理体验，一键释放磁盘空间|
 |[Go2Shell](https://links.jianshu.com/go?to=http%3A%2F%2Fzipzapmac.com%2FDMGs%2FGo2Shell.dmg)|安装见https://www.jianshu.com/p/60a2579af5fa|
-|[revealjs](https://revealjs.com/)|web-ppt|
 
 ## 文档
 * [石墨](https://shimo.im/desktop)
 * [ppt-reveal.js](https://github.com/hakimel/reveal.js)
 * [ppt-eagle.js](https://github.com/Zulko/eagle.js)
+* [docusaurus](https://github.com/facebook/docusaurus),文档工具
 
 ## 图片
 
@@ -72,6 +72,7 @@
 * [loading](https://loading.io/), 配置loading
 * [typed.js](https://github.com/mattboldt/typed.js), 打字效果
 * [lottie]() 移动端动画
+
 ## Chrome插件
 
 |插件|说明|
@@ -99,15 +100,11 @@
 
 ## 在线编辑
 
-代码在线编辑运行
-
-| 网址                                            | 说明                                                                                      |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [jsrun.net](https://jsrun.net/)                 | 国内网站，有代码提示，支持cdn库导入，不支持创建项目，有代码示例市场。                     |
-| [jsbin.com](https://jsbin.com/?html,js,console) | 国外网站，功能少，支持本地搭建                                                            |
-| [codepen.io](https://codepen.io/)               | 国外网站，支持cdn库导入，支持创建项目（非会员只支持一个项目），有大量丰富的代码示例市场。 |
-| [stackblitz.com](https://stackblitz.com/)       | 国外网站，有代码提示，支持npm，可以创建项目（默认创建类型没有vue）。                      |
-| [codesandbox.io](https://codesandbox.io/)       | 国外网站，支持npm和cdn库导入，可以创建各种类型项目                                        |
+* [jsrun.net](https://jsrun.net/), 国内网站，有代码提示，支持cdn库导入，不支持创建项目，有代码示例市场。
+* [jsbin.com](https://jsbin.com/?html,js,console), 国外网站，功能少，支持本地搭建
+* [codepen.io](https://codepen.io/),国外网站，支持cdn库导入，支持创建项目（非会员只支持一个项目），有大量丰富的代码示例市场。
+* [stackblitz.com](https://stackblitz.com/),国外网站，有代码提示，支持npm，可以创建项目（默认创建类型没有vue）。
+* [codesandbox.io](https://codesandbox.io/),国外网站，支持npm和cdn库导入，可以创建各种类型项目
 
 
 ## 编程题库
@@ -127,8 +124,7 @@
 
 技术分享和教程视频。
 
-| 网址                                            | 说明                                                                                                         |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 网址| 说明|| - | - |
 | [Frontendmasters](https://frontendmasters.com/) | 有很多大佬的课程，英语课程，英文字幕，少部分课程免费，大部分需要订阅会员，费用较贵，可以等黑五打折时买年费。 |
 | [Egghead](https://egghead.io)                   | 英语课程，英文字幕。                                                                                         |
 | [IT大咖说](http://www.itdks.com/)               | 国内技术大会分享录像为主。                                                                                   |
@@ -213,16 +209,21 @@
 
 毕竟全球最大同性交友平台，上面牛逼的人和项目非常至多，除了轮子也有很多教程，这里推荐一些对前端学习有帮助的项目。
 
-| 项目名                                                                                                     | 说明                                                                               |
-| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)                                     | 短小精悍的工具函数，有中文版。                                                     |
-| [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) | 前端面试题整理，有中文版，没答案。                                                 |
-| [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)                   | 前端面试手册，有中文版，带答案。                                                   |
-| [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)                                 | 前端开发清单                                                                       |
-| [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)                                 | js算法和数据结构                                                                   |
-| [33-js-concepts](https://github.com/leonardomso/33-js-concepts)                                            | 前端开发需要掌握的33个概念，有中文版。                                             |
-| [awesome-javascript](https://github.com/sorrycc/awesome-javascript)                                        | javascript资源列表，有[中文版](https://github.com/jobbole/awesome-javascript-cn)。 |
-| [nodebestpractices](https://github.com/i0natan/nodebestpractices?utm_source=gold_browser_extension)        | node最佳实践列表,有中文版。                                                        |
+- [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code), 短小精悍的工具函数，有中文版。
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) ,前端面试题整理，有中文版，没答案.
+- [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook),前端面试手册，有中文版，带答案。
+- [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist),前端开发清单|
+- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms),js算法和数据结构|
+- [33-js-concepts](https://github.com/leonardomso/33-js-concepts),前端开发需要掌握的33个概念，有中文版。
+- [awesome-javascript](https://github.com/sorrycc/awesome-javascript), javascript资源列表，有[中文版](https://github.com/jobbole/awesome-javascript-cn)。
+- [nodebestpractices](https://github.com/i0natan/nodebestpractices?utm_source=gold_browser_extension),node最佳实践列表,有中文版。
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS),一系列深入探讨 JavaScript 语言核心机制的书籍
+- [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) |优秀的 JS 代码规范。
+- [JavaScript](https://github.com/airbnb/javascript), JavaScript 编程风格指南
+- [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook),技术人员求职面试
+- [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist),列出了将 HTML 页面投入生产之前需要进行测试的所有元素。
+
+
 
 **在github上，awesome-\*相似名称可以找到其他类似项目，比如node资源列表awesome-node，react资源列表awesome-react。**
 
