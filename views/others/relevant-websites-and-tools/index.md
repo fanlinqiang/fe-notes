@@ -2,40 +2,54 @@
 
 平时工作开发时用到的一些辅助工具类网站
 
+### js
+* [regexr.com](https://regexr.com)，正则表达式验证匹配
+* `https://jex.im/regulex`,`https://regexper.com (网络需自由)`,`https://aoxiaoqiang.github.io/reg`, `https://www.debuggex.com`, 正则可视化工具
+* [codelf](https://unbug.github.io/codelf/)， 变量命名推荐（支持中文）
+* [tool.lu](https://tool.lu/),众多工具集合，包括时间戳转换，进制转换等
+* [astexplorer](https://astexplorer.net/), 在线语法树
+
+### css
+* [Box-Shadow](https://www.html.cn/tool/css3Preview/Box-Shadow.html)，css box-shadow阴影预览及代码生成
+* [shadows](https://shadows.brumm.af/),css box-shadow阴影预览及代码生成
+* [jsEffects](http://www.internetke.com/jsEffects/2014120803/),css渐变预览及代码生成
+* [easeing/ceaser](http://xuanfengge.com/easeing/ceaser/), css动画缓动函数预览及生成
+* [sprite-generator](https://www.toptal.com/developers/css/sprite-generator),多张图片合成雪碧图，并生成对应css
+* [CSS Tricks](https://css-tricks.com/)，是一个国外的优秀前端开发博客，主要分享使用CSS样式的技巧、经验和教程等。
+* [cssreference](https://cssreference.io/)，更新 CSS 知识或者查询不熟悉、不常用的属性
+
+
+### git
+* [gitignore](https://www.gitignore.io/)， 根据选择生成.gitignore文件
+
+### markdown
+* [MarkdownNice](https://mdnice.com/), Markdown在线工具，支持多种风格主题的样式。支持微信公众号和掘金等平台的代码导出。
+* [shields.io](https://shields.io/category/license), 生成 在Markdown 文档中的徽章
+
+### 其他
+
 | 网址 | 说明 |
 |:-|:-|
-| [regexr.com](https://regexr.com)| 正则表达式验证匹配|
-| [gitignore](https://www.gitignore.io/)| 根据选择生成.gitignore文件|
-| [codelf](https://unbug.github.io/codelf/)| 变量命名推荐（支持中文）|
-| [Box-Shadow](https://www.html.cn/tool/css3Preview/Box-Shadow.html) | css box-shadow阴影预览及代码生成|
-| [jsEffects](http://www.internetke.com/jsEffects/2014120803/) | css渐变预览及代码生成|
-| [easeing/ceaser](http://xuanfengge.com/easeing/ceaser/)| css动画缓动函数预览及生成|
-| [https://f2er.club/](https://f2er.club/)| 醉牛前端，前端手册|
-| [sprite-generator](https://www.toptal.com/developers/css/sprite-generator) | 多张图片合成雪碧图，并生成对应css|
-| [tool.lu](https://tool.lu/) | 众多工具集合，包括时间戳转换，进制转换等 |
-| [jsdelivr](https://www.jsdelivr.com) | 国外的cdn库，支持github，npm，WordPress  |
-| [Chromium](https://sourceforge.net/projects/osxportableapps/files/Chromium/)| chrome多版本下载|
-| [firefox/releases](https://ftp.mozilla.org/pub/firefox/releases/)| 火狐浏览器历史版本下载|
+|[https://f2er.club/](https://f2er.club/)| 醉牛前端，前端手册|
+|[jsdelivr](https://www.jsdelivr.com) | 国外的cdn库，支持github，npm，WordPress  |
+|[Chromium](https://sourceforge.net/projects/osxportableapps/files/Chromium/)| chrome多版本下载|
+|[firefox/releases](https://ftp.mozilla.org/pub/firefox/releases/)| 火狐浏览器历史版本下载|
 |[licecap](https://www.cockos.com/licecap/)| 录屏工具|
 |[screentogif](https://www.screentogif.com/)| 录屏工具|
 |[KeyCastr](http://mac.softpedia.com/get/Utilities/KeyCastr.shtml)| 将mac按键显示在屏幕上，分享演示、录制视频或动图时超赞.|
 |[chrome-devtools](https://www.html.cn/doc/chrome-devtools/)|Chrome 开发者工具中文文档|
-|[GitMind](https://gitmind.cn/app/template?lang=zh)|Web端的流程化应用|
 |[Responsively响应式](https://github.com/manojVivek/responsively-app)|能够同时浏览多个不同尺寸屏幕的当前效果。对于响应式开发有很好的调式功能。|
-|[MarkdownNice](https://mdnice.com/)|Markdown在线工具，支持多种风格主题的样式。支持微信公众号和掘金等平台的代码导出。|
-|`https://jex.im/regulex`,`https://regexper.com (网络需自由)`,`https://aoxiaoqiang.github.io/reg`, `https://www.debuggex.com`|正则可视化工具|
-|[shields.io](https://shields.io/category/license)|生成 在Markdown 文档中的徽章|
-|[SwitchHosts host管理工具](https://github.com/oldj/SwitchHosts)|快速切换不同的 hosts 设置、并进行hosts编辑|
+|[SwitchHosts host管理工具](https://github.com/oldj/SwitchHosts/releases)|快速切换不同的 hosts 设置、并进行hosts编辑|
 |[Lighthouse](https://developers.google.com/web/tools/lighthouse)|一个Google开源的自动化工具，主要用于改进网络应用（移动端）的质量。目前测试项包括页面性能、PWA、可访问性（无障碍）、最佳实践、SEO。|
-|[SwitchHosts](https://github.com/oldj/SwitchHosts/releases)|修改hosts|
 |[wireshark](https://www.wireshark.org/download.html)|抓包工具|
 |AirServer|投屏到电脑|
 |[uTools](http://www.u.tools/download.html)|uTools,工具集|
 |[腾讯柠檬清理](https://lemon.qq.com/)|匠心打磨清理体验，一键释放磁盘空间|
-|[Go2Shell](https://links.jianshu.com/go?to=http%3A%2F%2Fzipzapmac.com%2FDMGs%2FGo2Shell.dmg)|安装见https://www.jianshu.com/p/60a2579af5fa|
-|[astexplorer](https://astexplorer.net/)|在线语法树|
+|[Go2Shell](https://zipzapmac.com/go2shell)|mac打开Finder中当前目录的终端窗口。下载：https://zipzapmac.com/DMGs/Go2Shell.dmg|
 
 ## 文档
+
+* [GitMind](https://gitmind.cn/app/template?lang=zh), Web端的流程化应用
 * [石墨](https://shimo.im/desktop)
 * [ppt-reveal.js](https://github.com/hakimel/reveal.js)
 * [ppt-eagle.js](https://github.com/Zulko/eagle.js)
@@ -45,16 +59,15 @@
 
 * [Collect UI](http://collectui.com/designs), 画廊是一个免费的在线资源，用于每日UI设计灵感。
 * [The Noun Project](https://thenounproject.com/),专门提供高品质、可辨识性强的icon
-* [unDraw](https://undraw.co/illustrations), 是由希腊设计师 Katerina Limpitsouni 开发的一套开源矢量插图库，在这个网站上有超过 1000 个扁平矢量插画供你下载使用。
+* [unDraw](https://undraw.co/illustrations), 是由希腊设计师 Katerina Limpitsouni 开发的一套开源矢量插图库，在这个网站上有超过 1000个扁平矢量插画供你下载使用。
 * [manypixels](https://www.manypixels.co/gallery/)免费插画集
 * [iradesign](https://iradesign.io/)通过调配渐变色、搭配手绘组件定制插画
 * [lukaszadam](https://lukaszadam.com/illustrations)免费 SVG 插画
-* [CSS Tricks](https://css-tricks.com/)，是一个国外的优秀前端开发博客，主要分享使用CSS样式的技巧、经验和教程等。
-* [cssreference](https://cssreference.io/)，更新 CSS 知识或者查询不熟悉、不常用的属性
 * [getwaves](https://getwaves.io/)在线 SVG 波形生成器
 * [imagecompressor](https://imagecompressor.com/)在线图片压缩工具，一次可以压缩多达 20 张图片
 * [bulkresizephotos](https://bulkresizephotos.com/en)最快的在线图片缩放工具（图片缩放和压缩在本地完成，无需上传到服务器）
 * [carbon](https://carbon.now.sh/)代码转图片工具
+* [drawkit](https://www.drawkit.io/)，手绘的矢量插图和图标资源
 
 ## 动画相关
 
@@ -72,7 +85,9 @@
 * [loaders](https://connoratherton.com/loaders), 纯css loading
 * [loading](https://loading.io/), 配置loading
 * [typed.js](https://github.com/mattboldt/typed.js), 打字效果
-* [lottie]() 移动端动画
+* [lottie](https://airbnb.io/lottie/#/web) 移动端动画
+* [oasisengine](https://oasisengine.cn/#/), 阿里开源3d动画库
+
 
 ## Chrome插件
 

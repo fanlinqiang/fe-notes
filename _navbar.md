@@ -3,7 +3,7 @@
 * 其他
   * [GIT](views/others/git/index.md)
   * [Markdown](views/others/markdown.md)
-  * [SVG](views/others/svg/index.md)
+  * [SVG](views/svg/index.md)
   * [canvas](views/others/canvas/index.md)
   * [pug](views/others/pug/index.md)
   * [相关网站与工具](views/others/relevant-websites-and-tools/index.md)

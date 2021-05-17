@@ -88,7 +88,7 @@ DOM通常代表在html、xhtml和xml中的对象，使用DOM可以允许程序�
 		input(id="user-input", type="text")
 		button(onclick="handleSubmit()") 提交
 	.web-display#web-display
-	
+
 ```
 ```sass
 .container
@@ -211,9 +211,9 @@ eval("UNTRUSTED")
 
 GET类型的CSRF利用非常简单，只需要一个HTTP请求，一般会这样利用：
 ```html
-<img src="http://bank.example/withdraw?amount=10000&for=hacker" > 
+<img src="http://bank.example/withdraw?amount=10000&for=hacker" >
 ```
- 
+
 复制代码在受害者访问含有这个img的页面后，浏览器会自动向http://bank.example/withdraw?account=xiaoming&amount=10000&for=hacker发出一次HTTP请求。bank.example就会收到包含受害者登录信息的一次跨域请求。
 
 #### POST类型的CSRF
@@ -225,7 +225,7 @@ GET类型的CSRF利用非常简单，只需要一个HTTP请求，一般会这样
     <input type="hidden" name="amount" value="10000" />
     <input type="hidden" name="for" value="hacker" />
 </form>
-<script> document.forms[0].submit(); </script> 
+<script> document.forms[0].submit(); </script>
 ```
 
 复制代码访问该页面后，表单会自动提交，相当于模拟用户完成了一次POST操作。

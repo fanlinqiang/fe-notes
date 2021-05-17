@@ -2,6 +2,7 @@
 
 > [nginx中文手册](https://www.nginx.cn/nginx-how-to)
 > http://nginx.org/en/docs/
+> [Nginx 容器教程](https://www.ruanyifeng.com/blog/2018/02/nginx-docker.html)
 
 ## 安装
 

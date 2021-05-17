@@ -8,5 +8,8 @@
     "dev": "docsify serve"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "docsify": "^4.12.1"
+  }
 }
