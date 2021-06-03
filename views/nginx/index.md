@@ -174,8 +174,54 @@ http {
         }
 
         #禁止访问 .htxxx 文件
-            location ~ /.ht {
+        location ~ /.ht {
             deny all;
+        }
+
+        location /patient/ {
+           try_files $uri $uri/ /patient/index.html;
+        }
+        location /patient/smart/ {
+            expires 0;
+            alias /home/work/dev/web/smart/dist/;
+            try_files $uri $uri/ /patient/smart/index.html;		
+        }
+        location /epidemic-h5/ {
+              alias /Users/linqiang/Downloads/epidemic-h5/dist/;
+              try_files $uri $uri/ /epidemic-h5/index.html;
+              # GZIP should be enabled to make response payload smaller
+              gzip                on;
+              gzip_vary           on;
+              gzip_proxied        any;
+              gzip_comp_level     6;
+              gzip_buffers        16 8k;
+              gzip_http_version   1.1;
+              gzip_min_length     1000;
+              gzip_types          text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+              # For better cache policy, browser will send an HEAD request before using local cache
+              expires         0;
+              add_header      Cache-Control private;
+              #add_header Cache-Control no-store;
+              #add_header Hm-Nginx 1;
+              if ($request_filename ~* .*\.(?:htm|html)$) {
+                  add_header Last-Modified $date_gmt;
+                  add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
+                  expires off;
+              }
+              if ($request_filename ~* .*\.(?:js)$) {
+                  expires 7d;
+              }
+              if ($request_filename ~* .*\.(?:|css)$) {
+                  add_header Content-Type "text/css;charset=utf-8";
+                  expires 7d;
+              }
+              if ($request_filename ~* .*\.(?:jpg|jpeg|gif|ttf|png|ico|cur|gz|svg|svgz|mp4|ogg|ogv|webm)$) {
+                  expires 7d;
+              }
+          }
+        location ~* (/epidemic-h5)(/.*)+/(css|js|data|fonts|images|img)/ {
+            alias /Users/linqiang/Downloads/epidemic-h5/dist;
+            rewrite (.*)\/(css|js|data|fonts|images|img)\/(.*) $1/$3/$4 last;
         }
     }
     # 嵌入其他配置文件
