@@ -218,7 +218,7 @@ http {
               if ($request_filename ~* .*\.(?:jpg|jpeg|gif|ttf|png|ico|cur|gz|svg|svgz|mp4|ogg|ogv|webm)$) {
                   expires 7d;
               }
-          }
+        }
         location ~* (/epidemic-h5)(/.*)+/(css|js|data|fonts|images|img)/ {
             alias /Users/linqiang/Downloads/epidemic-h5/dist;
             rewrite (.*)\/(css|js|data|fonts|images|img)\/(.*) $1/$3/$4 last;
